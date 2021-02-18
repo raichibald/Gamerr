@@ -6,7 +6,7 @@
 //
 
 struct K {
-    static let apiKey = "e4f3890460274acc86a3058abc7833b0"
+    static let apiKey = Secrets.myApiKey
     static let cellIdentifier = "GameCell"
     static let gameSegue = "goToGame"
 }
