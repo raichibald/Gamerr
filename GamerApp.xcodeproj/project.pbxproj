@@ -3,27 +3,49 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A5F2374E7961316657677119 /* Pods_GamerApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CE73F905C894D9A34B86B2E /* Pods_GamerApp.framework */; };
+		B330251925DE7D3C004E66B1 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B330251825DE7D3C004E66B1 /* Constants.swift */; };
+		B33A60B425DDB35A003BC131 /* GameDetailsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B33A60B325DDB35A003BC131 /* GameDetailsManager.swift */; };
 		B36C849F25DC413F004CE32D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B36C849E25DC413F004CE32D /* AppDelegate.swift */; };
 		B36C84A125DC413F004CE32D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B36C84A025DC413F004CE32D /* SceneDelegate.swift */; };
-		B36C84A325DC413F004CE32D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B36C84A225DC413F004CE32D /* ViewController.swift */; };
+		B36C84A325DC413F004CE32D /* GamesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B36C84A225DC413F004CE32D /* GamesListViewController.swift */; };
 		B36C84A625DC413F004CE32D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B36C84A425DC413F004CE32D /* Main.storyboard */; };
 		B36C84A825DC413F004CE32D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B36C84A725DC413F004CE32D /* Assets.xcassets */; };
 		B36C84AB25DC413F004CE32D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B36C84A925DC413F004CE32D /* LaunchScreen.storyboard */; };
+		B3D8847C25DC49E90000E122 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D8847B25DC49E90000E122 /* Game.swift */; };
+		B3D8847F25DC4A530000E122 /* GameManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D8847E25DC4A530000E122 /* GameManager.swift */; };
+		B3D8848E25DC6EB20000E122 /* GameCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D8848D25DC6EB20000E122 /* GameCell.swift */; };
+		B3F0230425DD9FA400368160 /* InfoPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F0230325DD9FA400368160 /* InfoPresentationController.swift */; };
+		B3F0230B25DDA0DF00368160 /* InfoPresentationView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B3F0230A25DDA0DF00368160 /* InfoPresentationView.xib */; };
+		B3F0230E25DDA1FD00368160 /* InfoPresentationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F0230D25DDA1FD00368160 /* InfoPresentationViewController.swift */; };
+		B3F53F7125DD2AA000816D6C /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F53F7025DD2AA000816D6C /* GameViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		904210CE22F44F3CBE4D36C0 /* Pods-GamerApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GamerApp.debug.xcconfig"; path = "Target Support Files/Pods-GamerApp/Pods-GamerApp.debug.xcconfig"; sourceTree = "<group>"; };
+		9CE73F905C894D9A34B86B2E /* Pods_GamerApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GamerApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9ED58E46ACCE0073C62846B5 /* Pods-GamerApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GamerApp.release.xcconfig"; path = "Target Support Files/Pods-GamerApp/Pods-GamerApp.release.xcconfig"; sourceTree = "<group>"; };
+		B330251825DE7D3C004E66B1 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		B33A60B325DDB35A003BC131 /* GameDetailsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameDetailsManager.swift; sourceTree = "<group>"; };
 		B36C849B25DC413F004CE32D /* GamerApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GamerApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B36C849E25DC413F004CE32D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B36C84A025DC413F004CE32D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B36C84A225DC413F004CE32D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B36C84A225DC413F004CE32D /* GamesListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamesListViewController.swift; sourceTree = "<group>"; };
 		B36C84A525DC413F004CE32D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B36C84A725DC413F004CE32D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B36C84AA25DC413F004CE32D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B36C84AC25DC413F004CE32D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3D8847B25DC49E90000E122 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		B3D8847E25DC4A530000E122 /* GameManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameManager.swift; sourceTree = "<group>"; };
+		B3D8848D25DC6EB20000E122 /* GameCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameCell.swift; sourceTree = "<group>"; };
+		B3F0230325DD9FA400368160 /* InfoPresentationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoPresentationController.swift; sourceTree = "<group>"; };
+		B3F0230A25DDA0DF00368160 /* InfoPresentationView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InfoPresentationView.xib; sourceTree = "<group>"; };
+		B3F0230D25DDA1FD00368160 /* InfoPresentationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoPresentationViewController.swift; sourceTree = "<group>"; };
+		B3F53F7025DD2AA000816D6C /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +53,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5F2374E7961316657677119 /* Pods_GamerApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8FEE12170439B5CDFB8F73C9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				904210CE22F44F3CBE4D36C0 /* Pods-GamerApp.debug.xcconfig */,
+				9ED58E46ACCE0073C62846B5 /* Pods-GamerApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		B36C849225DC413E004CE32D = {
 			isa = PBXGroup;
 			children = (
 				B36C849D25DC413F004CE32D /* GamerApp */,
 				B36C849C25DC413F004CE32D /* Products */,
+				8FEE12170439B5CDFB8F73C9 /* Pods */,
+				C195C9637487A4004FF9B8E4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +92,70 @@
 			children = (
 				B36C849E25DC413F004CE32D /* AppDelegate.swift */,
 				B36C84A025DC413F004CE32D /* SceneDelegate.swift */,
-				B36C84A225DC413F004CE32D /* ViewController.swift */,
-				B36C84A425DC413F004CE32D /* Main.storyboard */,
-				B36C84A725DC413F004CE32D /* Assets.xcassets */,
-				B36C84A925DC413F004CE32D /* LaunchScreen.storyboard */,
+				B3D8848525DC5E370000E122 /* Controller */,
+				B3D8848725DC5E4A0000E122 /* View */,
+				B3D8848825DC5E580000E122 /* SupportingFiles */,
 				B36C84AC25DC413F004CE32D /* Info.plist */,
+				B3D8848225DC5D6E0000E122 /* Model */,
+				B3D8848325DC5D900000E122 /* ViewModel */,
+				B330251825DE7D3C004E66B1 /* Constants.swift */,
 			);
 			path = GamerApp;
+			sourceTree = "<group>";
+		};
+		B3D8848225DC5D6E0000E122 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B3D8847B25DC49E90000E122 /* Game.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B3D8848325DC5D900000E122 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				B3D8847E25DC4A530000E122 /* GameManager.swift */,
+				B33A60B325DDB35A003BC131 /* GameDetailsManager.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		B3D8848525DC5E370000E122 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B36C84A225DC413F004CE32D /* GamesListViewController.swift */,
+				B3F53F7025DD2AA000816D6C /* GameViewController.swift */,
+				B3F0230325DD9FA400368160 /* InfoPresentationController.swift */,
+				B3F0230D25DDA1FD00368160 /* InfoPresentationViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B3D8848725DC5E4A0000E122 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B3D8848D25DC6EB20000E122 /* GameCell.swift */,
+				B36C84A425DC413F004CE32D /* Main.storyboard */,
+				B3F0230A25DDA0DF00368160 /* InfoPresentationView.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B3D8848825DC5E580000E122 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				B36C84A725DC413F004CE32D /* Assets.xcassets */,
+				B36C84A925DC413F004CE32D /* LaunchScreen.storyboard */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		C195C9637487A4004FF9B8E4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9CE73F905C894D9A34B86B2E /* Pods_GamerApp.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +165,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B36C84AF25DC413F004CE32D /* Build configuration list for PBXNativeTarget "GamerApp" */;
 			buildPhases = (
+				7F87C73E336E6ECD38A4CDB0 /* [CP] Check Pods Manifest.lock */,
 				B36C849725DC413F004CE32D /* Sources */,
 				B36C849825DC413F004CE32D /* Frameworks */,
 				B36C849925DC413F004CE32D /* Resources */,
+				340F610A206F9BE93055D3F2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -124,6 +217,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3F0230B25DDA0DF00368160 /* InfoPresentationView.xib in Resources */,
 				B36C84AB25DC413F004CE32D /* LaunchScreen.storyboard in Resources */,
 				B36C84A825DC413F004CE32D /* Assets.xcassets in Resources */,
 				B36C84A625DC413F004CE32D /* Main.storyboard in Resources */,
@@ -132,14 +226,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		340F610A206F9BE93055D3F2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GamerApp/Pods-GamerApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GamerApp/Pods-GamerApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GamerApp/Pods-GamerApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7F87C73E336E6ECD38A4CDB0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GamerApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B36C849725DC413F004CE32D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B36C84A325DC413F004CE32D /* ViewController.swift in Sources */,
+				B3F53F7125DD2AA000816D6C /* GameViewController.swift in Sources */,
+				B330251925DE7D3C004E66B1 /* Constants.swift in Sources */,
+				B36C84A325DC413F004CE32D /* GamesListViewController.swift in Sources */,
+				B33A60B425DDB35A003BC131 /* GameDetailsManager.swift in Sources */,
 				B36C849F25DC413F004CE32D /* AppDelegate.swift in Sources */,
+				B3F0230E25DDA1FD00368160 /* InfoPresentationViewController.swift in Sources */,
 				B36C84A125DC413F004CE32D /* SceneDelegate.swift in Sources */,
+				B3D8847C25DC49E90000E122 /* Game.swift in Sources */,
+				B3D8847F25DC4A530000E122 /* GameManager.swift in Sources */,
+				B3F0230425DD9FA400368160 /* InfoPresentationController.swift in Sources */,
+				B3D8848E25DC6EB20000E122 /* GameCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,12 +427,14 @@
 		};
 		B36C84B025DC413F004CE32D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 904210CE22F44F3CBE4D36C0 /* Pods-GamerApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 62UWXAK3LX;
 				INFOPLIST_FILE = GamerApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,12 +448,14 @@
 		};
 		B36C84B125DC413F004CE32D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9ED58E46ACCE0073C62846B5 /* Pods-GamerApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 62UWXAK3LX;
 				INFOPLIST_FILE = GamerApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

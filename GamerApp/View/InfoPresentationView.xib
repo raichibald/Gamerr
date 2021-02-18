@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="InfoPresentationViewController" customModule="GamerApp" customModuleProvider="target">
+            <connections>
+                <outlet property="gameImageView" destination="afl-YM-D8p" id="Pbh-mm-IFB"/>
+                <outlet property="gameReleaseDateLabel" destination="aXc-CP-Obe" id="hjg-f6-Vd6"/>
+                <outlet property="gameTitleLabel" destination="Px1-aX-yaC" id="W2m-Te-vlD"/>
+                <outlet property="ratingLabel" destination="DyS-Hg-bkD" id="5IJ-VB-AiE"/>
+                <outlet property="view" destination="iN0-l3-epB" id="kAq-BJ-1g4"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Game Title" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Px1-aX-yaC">
+                    <rect key="frame" x="10" y="64" width="394" height="21"/>
+                    <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="18"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="afl-YM-D8p">
+                    <rect key="frame" x="10" y="105" width="394" height="172"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="172" id="j9J-BG-32A"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Release Date" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aXc-CP-Obe">
+                    <rect key="frame" x="10" y="297" width="394" height="21"/>
+                    <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
+                    <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Rating" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DyS-Hg-bkD">
+                    <rect key="frame" x="10" y="338" width="394" height="21"/>
+                    <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
+                    <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" red="1" green="0.83529411760000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="aXc-CP-Obe" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="10" id="1Qy-Oa-bgr"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="afl-YM-D8p" secondAttribute="trailing" constant="10" id="Hs7-Ty-cDZ"/>
+                <constraint firstItem="DyS-Hg-bkD" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="NBA-lg-F5d"/>
+                <constraint firstItem="afl-YM-D8p" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="10" id="TBg-h2-c3w"/>
+                <constraint firstItem="aXc-CP-Obe" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="TZV-DC-fTC"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="aXc-CP-Obe" secondAttribute="trailing" constant="10" id="Z9D-an-Bdb"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="DyS-Hg-bkD" secondAttribute="trailing" constant="10" id="fet-ZK-HPc"/>
+                <constraint firstItem="aXc-CP-Obe" firstAttribute="top" secondItem="afl-YM-D8p" secondAttribute="bottom" constant="20" id="kcp-XE-0Pj"/>
+                <constraint firstItem="Px1-aX-yaC" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="20" id="vEf-Z0-aaO"/>
+                <constraint firstItem="DyS-Hg-bkD" firstAttribute="top" secondItem="aXc-CP-Obe" secondAttribute="bottom" constant="20" id="w4f-wS-UMz"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="Px1-aX-yaC" secondAttribute="trailing" constant="10" id="wTJ-m9-5kQ"/>
+                <constraint firstItem="DyS-Hg-bkD" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="10" id="xME-g8-A2J"/>
+                <constraint firstItem="afl-YM-D8p" firstAttribute="top" secondItem="Px1-aX-yaC" secondAttribute="bottom" constant="20" id="yKC-rU-PeE"/>
+                <constraint firstItem="Px1-aX-yaC" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="10" id="yUn-3a-o5x"/>
+            </constraints>
+            <point key="canvasLocation" x="137.68115942028987" y="91.741071428571431"/>
+        </view>
+    </objects>
+</document>
